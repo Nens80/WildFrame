@@ -1,0 +1,31 @@
+    <!--scroller temp-->
+    <div class="scroller" data-direction="right" data-speed="fast">
+        <div class="scroller__inner">
+            <img src="/Assets/Image/New folder/1.jpg" alt="">
+            <img src="/Assets/Image/New folder/2.jpg" alt="">
+            <img src="/Assets/Image/New folder/3.jpg" alt="">
+            <img src="/Assets/Image/New folder/4.jpg" alt="">
+            <img src="/Assets/Image/New folder/5.jpg" alt="">
+            <img src="/Assets/Image/New folder/6.jpg" alt="">
+            <img src="/Assets/Image/New folder/7.jpg" alt="">
+            <img src="/Assets/Image/New folder/8.jpg" alt="">
+            <img src="/Assets/Image/New folder/9.jpg" alt="">
+            <img src="/Assets/Image/New folder/10.jpg" alt="">
+            <img src="/Assets/Image/New folder/11.jpg" alt="">
+            <img src="/Assets/Image/New folder/12.jpg" alt="">
+
+            <!--dups-->
+            <img src="/Assets/Image/New folder/1.jpg" alt="">
+            <img src="/Assets/Image/New folder/2.jpg" alt="">
+            <img src="/Assets/Image/New folder/3.jpg" alt="">
+            <img src="/Assets/Image/New folder/4.jpg" alt="">
+            <img src="/Assets/Image/New folder/5.jpg" alt="">
+            <img src="/Assets/Image/New folder/6.jpg" alt="">
+            <img src="/Assets/Image/New folder/7.jpg" alt="">
+            <img src="/Assets/Image/New folder/8.jpg" alt="">
+            <img src="/Assets/Image/New folder/9.jpg" alt="">
+            <img src="/Assets/Image/New folder/10.jpg" alt="">
+            <img src="/Assets/Image/New folder/11.jpg" alt="">
+            <img src="/Assets/Image/New folder/12.jpg" alt="">
+        </div>
+    </div>

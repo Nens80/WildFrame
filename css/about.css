@@ -1,0 +1,5 @@
+.heading{
+   background: url(https://images.pexels.com/photos/247431/pexels-photo-247431.jpeg) no-repeat center center;
+    background-size: cover;
+    animation: slideIn 1s ease-in-out;
+}

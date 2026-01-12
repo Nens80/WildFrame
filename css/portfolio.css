@@ -1,0 +1,125 @@
+.portfolio {
+    padding: 100px 80px;
+    background: #0f140a;
+    color: #fff;
+}
+
+.portfolio-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.portfolio-heading h2 {
+    font-size: 2.6rem;
+    margin-bottom: 10px;
+}
+
+.portfolio-heading p {
+    opacity: 0.75;
+    font-size: 1rem;
+}
+
+.portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.portfolio-items img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 16px;
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+}
+
+.portfolio-items img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.portfolio-btn{
+    display: block;
+    margin: 40px auto 0;
+    padding: 14px 40px;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    width: fit-content;
+    justify-content: center;
+}
+
+.portfolio-btn:hover {
+    background-color: #e65c00;
+}
+
+.portfolio-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width: 900px) {
+    .portfolio-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .portfolio {
+        padding: 60px 30px;
+    }
+
+    .portfolio-items {
+        grid-template-columns: 1fr;
+    }
+}
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    transition: transform 0.6s ease, filter 0.6s ease;
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.1);
+    filter: blur(3px) brightness(70%);
+}
+
+.overlay-text {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.portfolio-item:hover .overlay-text {
+    opacity: 1;
+}
+
+.overlay-text h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.overlay-text p {
+    font-size: 0.95rem;
+    opacity: 0.85;
+}

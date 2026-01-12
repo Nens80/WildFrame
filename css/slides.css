@@ -1,0 +1,11 @@
+.scroller {
+    max-width: 400px;
+    overflow: hidden;
+    outline: 3px solid #000;
+}
+
+.scroller_inner {
+    padding-block: 1rem;
+    display: flex;
+    gap: 1rem;
+}
