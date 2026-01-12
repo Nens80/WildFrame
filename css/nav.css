@@ -20,14 +20,14 @@
     color: #d4af37;
 }
 
-.auth-buttons a {
+.social-buttons i {
     text-decoration: none;
     color: #fefae0;
     font-size: 16px;
     transition: 0.3s;
 }
 
-.nav_bar {
+.nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,13 +41,13 @@
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav_bar.nav-scrolled {
+.nav-bar.nav-scrolled {
     background-color: rgba(44, 49, 26, 0.95); 
     padding: 12px 40px; 
     backdrop-filter: blur(10px); 
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
-.nav_bar.nav-hidden {
+.nav-bar.nav-hidden {
     transform: translateY(-100%);
 }
